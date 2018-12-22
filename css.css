@@ -80,7 +80,7 @@ width: 0em;
 .site-nav{
 	position: relative;
 	float: right;
-	z-index: 20000;
+	z-index: 1000;
 	top: 0;
 	left: 0;
 	display: block !important;
@@ -133,7 +133,7 @@ width: 0em;
 	font-family: 'acumin-pro-extra-condensed', sans-serif;
 	color: linear-gradient(135deg, #063196 0%, #f15 100%) ;
 	position: absolute;
-	z-index: 20000;
+	z-index: 1000;
 	padding-top: 5em;
 	top: 0;
 	bottom: 0;
