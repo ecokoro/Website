@@ -11,9 +11,9 @@ body {
 	font-family: arial, sans-serif;
 	font-size: 1vw;
 	background: white;
-	max-width: 2000px;
-
+	min-width: 1020px;
 }
+
 .storyMap{
 	width: 35%;
 	max-width: 130%;
@@ -33,7 +33,6 @@ img {
 	transform: translate3d(0,0,0);
 	border-radius: 10%;
 	z-index: 1000;
-	
 }
 a, a:visited{
 	color: inherit;
@@ -138,6 +137,7 @@ width: 0em;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
+	
 }
 
 .hero {
