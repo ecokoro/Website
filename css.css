@@ -124,7 +124,7 @@ width: 0em;
 }
 .homepage {
 	position: relative;
-	height: 35vw;
+	height: 25vw;
 	
 	width: 100%;
 }
@@ -132,7 +132,7 @@ width: 0em;
 	font-family: 'acumin-pro-extra-condensed', sans-serif;
 	color: linear-gradient(135deg, #063196 0%, #f15 100%) ;
 	position: absolute;
-	padding-top: 5em;
+	padding-top: 3em;
 	top: 0;
 	bottom: 0;
 	width: 100%;
@@ -152,7 +152,7 @@ h1 {
 	color: linear-gradient(135deg, #063196 0%, #f15 100%);
 	font-size: 3em;
 	letter-spacing: 0.2em;
-	margin-bottom: 1.2em;
+	
 	text-shadow: 0px 8px 1px rgba(30,10,40,.99);
 	margin-left: .7em;
 	padding-top: 6%;
@@ -160,9 +160,8 @@ h1 {
 h2 {
 	font-weight: 100;
 	font-size: 2em;
-	line-height: 2.2;
-	margin-bottom: 1em;
-	padding-top: 0%;
+	line-height: 2.0;
+	padding-top: 1%;
 	letter-spacing: .05em;
 	text-shadow: 0px 0px 8px rgba(0,0,0,.99);
 
@@ -171,7 +170,6 @@ h2 {
 h3 {
 	font-size: 1.5em;
 	font-weight: 400;
-	line-height: 2;
 	letter-spacing: .25em;
 	text-shadow: 510px 20px 0px rgba(0,0,0,.4);
 
@@ -221,18 +219,22 @@ h6  {
 
 .intro{
 	position: relative;
-	background: #fff;
-	
+	width: 100%;
 }
 .intro p {
-	position: relative;
+	position
 	text-align: center;
-		font-size: 250%;
+	font-size: 200%;
 	padding-top: 2%;
-	padding-bottom: 1%;
-	padding-right: 4%;
+	padding-right: 30%;
 	padding-left: 4%;
-	letter-spacing: .10em;
+	font-weight: 100;
+	font-size: 1.5em;
+	line-height: 1.5;
+	padding-top: 0%;
+	letter-spacing: .06em;
+	text-shadow: 0px 0px 8px rgba(0,0,0,.99);	
+
 }
 .pictures {
 	position: relative;
@@ -310,20 +312,25 @@ h6  {
 
 .introtext{
 	position: relative;
-	background: #fff;
+	height: 35vw;
+	width: 100%;
 	
 	
 	
 }
 .introtext p {
-	position: relative;
+	position
 	text-align: center;
-		font-size: 250%;
-	padding-top: 0%;
-	padding-bottom: 0%;
-	padding-right: 3%;
-	padding-left: 3%;
-	letter-spacing: .10em
+	font-size: 200%;
+	padding-top: 20%;
+	padding-right: 5%;
+	padding-left: 50%;
+	font-weight: 100;
+	font-size: 1.5em;
+	line-height: 1.5;
+	padding-top: 3%;
+	letter-spacing: .06em;
+	text-shadow: 0px 0px 8px rgba(0,0,0,.99);
 }
 	.footer-info {
 		padding-top: 5em;
