@@ -229,8 +229,8 @@ h6  {
 	position: relative;
 	text-align: center;
 		font-size: 250%;
-	padding-top: 3%;
-	padding-bottom: 3%;
+	padding-top: 2%;
+	padding-bottom: 1%;
 	padding-right: 4%;
 	padding-left: 4%;
 	letter-spacing: .10em;
@@ -320,7 +320,7 @@ h6  {
 	position: relative;
 	text-align: center;
 		font-size: 250%;
-	padding-top: 3%;
+	padding-top: 0%;
 	padding-bottom: 0%;
 	padding-right: 3%;
 	padding-left: 3%;
