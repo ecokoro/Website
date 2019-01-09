@@ -188,7 +188,8 @@ h3 {
 }
 h4  {
     font-size: 1.5em;
-    padding-left: 2%;
+	color: black;
+    padding-left: 3%;
     font-weight: bold;
 	margin-top: -65px;
 	z-index: 20000;
@@ -332,7 +333,7 @@ h6  {
 	.footer-info {
 		padding-top: 4em;
 		color: #FFFFFF;
-	background: linear-gradient(135deg, #063196 0%, #f15 100%);
+	background: white;
 	width: 100%;
 		padding-bottom: 1%;
 		border-radius: 20px;
@@ -360,7 +361,7 @@ h6  {
 	padding-bottom: .5em;
 	text-decoration: none;
 	letter-spacing:.05em ;
-	color: #FFFFFF;
+	color: black;
 	background: rgba(90,120,150,.4);  
 	padding: 8px 12px !important;
 	border-radius: 10px;
