@@ -1,17 +1,64 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>EmmanuelOkoro</title>
-	<link rel="stylesheet" href="css.css">
-	
-<link rel="resume" href="Resume.html">
-		  
+<html lang="en">
+ <head>
+  <title>Emmanuel C. Okoro</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="css.css">	
+    <link rel="resume" href="Resume.html">
+    <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+.library-menu {
+  margin: 0 0 20px;
+  padding: 20px 10px 10px 10px;
+  display: inline-block;
+  background-color: ;
+}
+.library-menu span {
+  display: block;
+  width: 38px;
+  height: 5px;
+  background-color: black;
+  margin-bottom: 4px;
+  text-indent: -999;
+  overflow: hidden;
+}
+.library-menu span:last-child {
+  margin-bottom: 0;
+}
+.library-menu span.one,
+.library-menu span.two,
+.library-menu span.three {
+  transform: rotate(0deg) translate3d(0px, 0px, 0px);
+  transition: transform 350ms;
+}
+a.active span.one {
+  transform: rotate(60deg) translate3d(11px, -3px, 0px);
+}
+a.active span.two {
+  transform: rotate(75deg) translate3d(-1px, 1px, 0px);
+}
+a.active span.three {
+  transform: rotate(90deg) translate3d(-10px, 10px, 0);
+}
+    </style>
+    <style type="text/css">
+default {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=25803);}
+</style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>		  
 </head>
 
 <body>
 <div class="box">
 	<header>
+		<script>$('.library-menu').click(function(e) 
+	 {
+		$(this).toggleClass("active");
+		e.preventDefault();
+	 });</script>
 	
 		<div class="header"> 	
 			<h0>EMMANUEL O . </h0>	
@@ -130,13 +177,13 @@
 				<li><a href="#">Landscape Architecture </a></li>
 		 
 		 </ul>
-		
+			<div class ="footer-credit"> 
 			<p class="footer-credit" >
-			Website designed by me => <a 
-										 href="Resume.html"> Emmanuel Okoro 
-									  </a>
-			</p>
-			<p class="footer-credit">    Contact: <a href= "Resume.html"> ecokoro@uwm.edu </a></p>
+			Copyright &copy; <script type="text/javascript">
+						var d = new Date()
+							document.write(d.getFullYear())
+						</script> Emmanuel Okoro &#8226; <a href="mailto:ecokoro2@gmail.com" target="_top"> ecokoro2@gmail.com</a></p>
+			</div>
 		</div>
 
 		<div class="footer"> 
@@ -147,6 +194,7 @@
 								<li><a href="https://www.facebook.com/emmanuel.okoro.7393264" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="https://www.instagram.com/sample_naira/" class="icon fa-dribbble"><span class="label">Instagram</span></a></li>
 							</ul>
+				
 		</div>
 	</footer>
 </div>
