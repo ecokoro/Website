@@ -3,7 +3,7 @@
 html,
 html * {
 	box-sizing: border-box;
-	margin: auto;
+	margin: auto%;
 	margin-left: auto;
 		margin-right: auto;
 }
@@ -11,7 +11,7 @@ body {
 	font-family: arial, sans-serif;
 	font-size: 1vw;
 	background: white;
-	min-width: 1020px;
+	max-width: inherit;
 }
 
 .storyMap{
@@ -54,20 +54,6 @@ header {
 	z-index: 1000;
 	left: 45px;
 	
-}
-
-.site-logo {
-position: relative;
-display: block;
-float: left;
-width: 0em;
-}
-.site-logo img{
-	width: auto;
-
-}
-.log {
-	opacity: 1;
 }
 .site-nav{
 	position: relative;
