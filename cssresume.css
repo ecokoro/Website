@@ -145,6 +145,10 @@ width: 0em;
 	color: #ffffff;
 }
 
+.resume {
+	align-content: center;
+
+}
 h1 {
 	color: linear-gradient(135deg, #063196 0%, #f15 100%);
 	font-size: 3em;
@@ -197,7 +201,6 @@ h4  {
 	text-transform: uppercase;
 	font-size: 3em;
 	letter-spacing: 0.2em;
-	margin-bottom: 1.2em;
 	text-shadow: 0px 8px 1px rgba(30,10,40,.10);
 	margin-left: .7em;
 	padding-top: 8%;
@@ -322,7 +325,7 @@ h6  {
 	text-shadow: 0px 0px 8px rgba(0,0,0,.99);
 }
 	.footer-info {
-		padding-top: 4em;
+		padding-top: em;
 		color: #FFFFFF;
 	background: white;
 	width: 100%;
