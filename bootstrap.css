@@ -426,27 +426,30 @@ body.offcanvas .fh5co-nav-toggle {
     width: 30%;
     height: auto;
     background: white;
-    float: inherit;
+    float: none;
     margin-right: 20px;
     margin-bottom: 20px;
-    border: 1px solid #133739;
-    box-shadow: 0px 0px 5px #999999;
-    vertical-align: top;
+    border: 2px solid #133739;
+    box-shadow: 0px 0px 8px #999999;
+    vertical-align:top;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+	
 }
 
 .work-item a h3 {
     font-size: 20px;
     color: #000;
     margin-bottom: 10px;
+	
 }
 
 .work-item a p {
     font-size: 14px;
     color: #999999;
     margin-bottom: 0;
+	
 }
 
 .work-item a:hover,
@@ -480,15 +483,15 @@ body.offcanvas .fh5co-nav-toggle {
     }
 
     .work-item {
-        width: 90%;
+        width: 50%;
     }
 
     .work-item h3 {
-        width: 90%
+        width: 50%
     }
 
     .work-item a img {
-        width: 90%;
+        width: 50%;
         height: auto;
     }
 }
