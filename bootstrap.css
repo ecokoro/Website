@@ -426,7 +426,7 @@ body.offcanvas .fh5co-nav-toggle {
     width: 30%;
     height: auto;
     background: white;
-    float: left;
+    float: inherit;
     margin-right: 20px;
     margin-bottom: 20px;
     border: 1px solid #133739;
