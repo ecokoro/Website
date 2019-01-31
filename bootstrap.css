@@ -483,15 +483,15 @@ body.offcanvas .fh5co-nav-toggle {
     }
 
     .work-item {
-        width: 50%;
+        width: 90%;
     }
 
     .work-item h3 {
-        width: 50%
+        width: 90%
     }
 
     .work-item a img {
-        width: 50%;
+        width: 90%;
         height: auto;
     }
 }
